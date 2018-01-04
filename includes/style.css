@@ -1,0 +1,495 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+header, footer, aside, nav, section, main, article{
+    display: block;
+}
+#wrapper{
+    max-width: 1024px;
+    margin: 0px auto;
+
+}
+header{
+    height: 69px;
+    background: #cccccc;
+    position: relative;
+
+}
+h1{
+    text-align: center;
+    padding-top: 15px;
+    font-family: 'Boogaloo', cursive;
+}
+p{
+    font-size: 15px;
+    position: relative;
+    bottom: -3px;
+    font-family: 'Annie Use Your Telescope', cursive;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.rectangles a{
+    text-align: center;
+    position: relative;
+    top: 40px;
+    left: 10px;
+    font-family: 'Boogaloo', cursive;
+}
+footer {
+    height: 69px;
+    /* clear: both; */
+    width: 100%;
+    max-width: 1024px;
+    position: fixed;
+    bottom: 0px;
+    background: #cccccc;
+}
+
+.icon-bar a {
+    font-size: 36px;
+    float: left;
+    padding-top: 8px;
+    width: 20%;
+    text-align: center
+}
+
+.button {
+    background-color: white;
+    border: 2px solid black;
+    color: black;
+    padding: 1px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 30px;
+    width: 7%;
+    position: relative;
+    top: 14px;
+}
+#profile{
+    margin-left: 87%;
+    position: absolute;
+    top: 28%;
+    font-size: 2.3em;
+
+}
+#logout {
+    margin-left: 85%;
+    position: absolute;
+    top: 60%;
+    font-size: 20px
+
+}
+
+/*-----------------------------------------index----------------------------------------------------------*/
+#firstPage .rectangles{
+    width: 136px;
+    height: 136px;
+    float: left;
+    margin-top: 13px;
+    margin-right: 10px;
+    position: relative;
+    top: 98px;
+    left: 11%;
+    font-size: 27px;
+    background-color: #e0e0e0;
+    border-radius: 6px;
+}
+
+/*-----------------------------------------join layout----------------------------------------------------------*/
+
+.lineJoin{
+    width: 75%;
+    border: 1px solid black;
+    position: relative;
+    top: 32px;
+    left: 10%;
+}
+.buttonJoin .button{
+    margin: 4px 8.5%;
+}
+.button1 {
+    border-radius: 50%;
+    background-color: black;
+    color: white;
+}
+.button2 {border-radius: 50%;}
+.button3 {border-radius: 50%;}
+.button4 {border-radius: 50%;}
+
+/*-----------------------------------------find----------------------------------------------------------*/
+#recs {
+    margin-top: 28px;
+    min-height: 60px;
+}
+#find .rectangles{
+    width: 88px;
+    height: 51px;
+    float: left;
+    border: 2px solid black;
+    border-radius: 10%;
+    font-size: 16px;
+    text-align: center;
+    margin: 14px;
+    position: relative;
+    background-color: #e6e6e6;
+    box-shadow: 3px 6px 10px grey;
+}
+#find .rectangles a
+{
+    top:14px;
+    left: 0px;
+    font-size: 18px;
+}
+#find h2{
+    margin-left: 33%;
+    margin-top: 30px;
+    font-family: 'Boogaloo', cursive;
+    font-size: 28px;
+}
+#find .date h2{
+    margin-left: 44%;
+}
+.date{
+    clear: both;
+    height: 40px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.location{
+    clear: both;
+    height: 40px;
+    margin-bottom: 5px;
+}
+#find .location h2{
+    margin-left: 40%;
+    height: 10px;
+}
+.date input{
+    margin-top: 5px;
+    margin-left: 25%;
+}
+
+#find .custom-select {
+    margin-top: 5px;
+    margin-left: 35%;
+}
+#contFind{
+    height: 45px;
+    margin-left: 19%;
+    margin-top: 81px;
+}
+#contFind button{
+    width: 218px;
+    height: 35px;
+    font-family: 'Boogaloo', cursive;
+    font-size: 22px;
+}
+
+/*-----------------------------------------list---------------------------------------------------------------*/
+#list .button1{
+    color: black;
+    background-color: white;
+}
+#list .button2{
+    color: white;
+    background-color: black;
+}
+#list .rectangles{
+    width: 273px;
+    height: 86px;
+    border-radius: 4%;
+    float: left;
+    margin-top: 15px;
+    margin-left: 12%;
+    font-size: 27px;
+    box-shadow: 3px 6px 10px grey;
+}
+
+#contList button{
+    margin-top: 20px;
+    margin-left: 20%;
+}
+#list .rectangles a{
+    top: 4px;
+    left: 100px;
+}
+
+#list .rectangles a img{
+    position: relative;
+    left: 156px;
+    top: 56px;
+}
+#list .rectangles p{
+    position: relative;
+    right: -9px;
+    top: -6px;
+    font-size: 20px;
+    font-family: 'Boogaloo', cursive
+}
+
+#box{
+    width: 300px;
+    height: 390px;
+    display: none;
+    position: relative;
+    background-color: white;
+    border: 2px solid black;
+    bottom: 379px;
+    left: 30px;
+}
+#closeButton{
+
+    margin-left: 85%;
+}
+
+#box p{
+    font-family: 'Boogaloo', cursive;
+    font-size: 24px;
+}
+/*-----------------------------------------My Workout---------------------------------------------------------------*/
+#myWorkout .button1{
+    color: black;
+    background-color: white;
+}
+#myWorkout .button3{
+    color: white;
+    background-color: black;
+}
+#myWorkout article button{
+    margin-top: 45px;
+    margin-left: 20%;
+}
+
+
+/*-----------------------------------------Join Status---------------------------------------------------------------*/
+#statusJoin .button1{
+    color: black;
+    background-color: white;
+}
+#statusJoin .button4{
+    color: white;
+    background-color: black;
+}
+/*-----------------------------------------Create New/details/status---------------------------------------------------------------*/
+.button {
+    margin: 4px 12%;
+}
+/*-----------------------------------------Create New---------------------------------------------------------------*/
+#contCreate{
+    margin-left: 20%;
+    margin-top: 30px;
+}
+#contCreate button{
+    width: 218px;
+    height: 35px;
+    font-family: 'Boogaloo', cursive;
+    font-size: 22px;
+
+}
+.lineCreate {
+    width: 65%;
+    border: 1px solid black;
+    position: relative;
+    top: 32px;
+    left: 12%;
+}
+form{
+    margin-left: 7%;
+    margin-top: 25px;
+    font-family: 'Boogaloo', cursive;
+    font-size: 22px;
+}
+
+.custom-select{
+    font-size: 14px;
+    font-family: 'Boogaloo', cursive;
+    border-radius: 10%;
+}
+.container{
+    position: relative;
+    left: 100px;
+}
+.container input[type="checkbox"]{
+    margin: 10px;
+    height: 20px;
+    width: 20px;
+}
+#createNew input[type="datetime-local"]{
+    margin-left: 1px;
+}
+#createNew input[type="text"]{
+    width: 138px;
+    height: 59px;
+    border-radius: 4px;
+    resize: none;
+    position: relative;
+    top: 19px;
+    left: 23px;
+}
+#createNew article button{
+    top: 15px;
+}
+
+/*-----------------------------------------Details---------------------------------------------------------------*/
+
+#details .button1{
+    color: black;
+    background-color: white;
+}
+#details .button2{
+    color: white;
+    background-color: black;
+}
+#desc {
+    padding-top: 20px;
+    padding-left: 12%;
+    display: block;
+    width: 270px;
+}
+#desc p{
+    margin-top: 15px;
+    font-family: 'Boogaloo', cursive;
+    font-size: 22px;
+}
+#desc span {
+    font-family: 'Bangers', cursive;
+    margin-left: 20px;
+    font-size: 18px;
+}
+.description{
+    display: block;
+    font-size: 14px;
+    border: 1px solid #aaaaaa;
+    border-radius: 6%;
+    width: 149px;
+    height: 105px;
+    padding: 2px 4px;
+    float: right;
+    position: relative;
+    left: 22px;
+}
+
+#details article button{
+    margin-top: 85px;
+    margin-left: 20%;
+}
+/*-----------------------------------------Status---------------------------------------------------------------*/
+
+#status .button1{
+    color: black;
+    background-color: white;
+}
+#status .button3{
+    color: white;
+    background-color: black;
+}
+.chackIcon .fas{
+    font-size: 170px;
+    margin: 100px 0px 0px 30%;
+    color: #62c462;
+}
+.endStatus{
+    font-size: 36px;
+    font-family: 'Boogaloo', cursive;
+    margin-left: 11%;
+    margin-top: 20px;
+}
+
+/*-----------------------------------------details/Myworkout/createNew---------------------------------------------------------------*/
+
+article {
+    font-size: 22px;
+    font-family: 'Boogaloo', cursive;
+}
+article button{
+    width: 218px;
+    height: 35px;
+    font-family: 'Boogaloo', cursive;
+    font-size: 22px;
+}
+article p{
+    font-size: 18px;
+    font-family: 'Bangers', cursive;;
+}
+
+
+@media only screen and (min-width: 768px) {
+    /* For desktop: */
+
+}
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+
+}
+@media screen and (max-width: 480px) {
+
+
+}
+
+/*<p>Location : <span>Metzitzim beach, TLV </span>
+            <p>Date & Time : <span>31/12/2017, 19:00 </span>
+            <p>Workout Type : <span>Cycling </span>
+            <p>Workout Level :
+            <p>Creator :  <span>Moti Cohen</span>
+            <p>Description :<span class="description">  we will start with short warm Up, then will run 2 km. </span></p>
+
+*/
+
+/*<!doctype html>
+<html>
+<head>
+    <title> My Workout </title>
+    <link rel="stylesheet" href="../includes/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Annie+Use+Your+Telescope" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Annie+Use+Your+Telescope|Boogaloo" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Bangers" rel="stylesheet">
+    <!--<script src="includes/script.js"> </script>-->
+    <link href="https://use.fontawesome.com/releases/v5.0.2/css/all.css" rel="stylesheet">
+
+</head>
+<body id="myWorkout">
+<div id="wrapper">
+    <header>
+        <div>
+            <h1> My Workout </h1>
+        </div>
+    </header>
+    <main>
+        <div class="lineJoin">
+
+        </div>
+        <section class="buttonJoin">
+            <button class="button button1">1</button>
+            <button class="button button2">2</button>
+            <button class="button button3">3</button>
+            <button class="button button4">4</button>
+        </section>
+        <article id="desc">
+            <p>Location : <span>Metzitzim beach, TLV </span>
+            <p>Date & Time : <span>31/12/2017, 19:00 </span>
+            <p>Workout Type : <span>Cycling </span>
+            <p>Workout Level :
+            <p>Creator :  <span>Moti Cohen</span>
+            <p>Description :<span class="description">  we will start with short warm Up, then will run 2 km. </span></p>
+        </article>
+        <article>
+            <a href="status.html"><button>Accpet</button></a>
+        </article>
+    </main>
+    <footer>
+        <div class="icon-bar">
+            <a href="../index.html"> <i class="fas fa-home"><p>Home</p></i></a>
+            <a href="../CreateNew/createNew.html"> <i class="fas fa-edit"><p>Create</p></i></a>
+            <a href="find.html"> <i class="fas fa-users"><p>Join</p></i></a>
+            <a href="#"> <i class="fas fa-history"><p>History</p></i></a>
+            <a href="#"> <i class="fas fa-calendar-check"><p>Schedule</p></i></a>
+        </div>
+    </footer>
+</div>
+</body>
+</html>*/

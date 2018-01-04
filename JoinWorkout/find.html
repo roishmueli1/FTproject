@@ -1,0 +1,72 @@
+<!doctype html>
+<html>
+<head>
+    <title> Find workout </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../includes/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Annie+Use+Your+Telescope" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Annie+Use+Your+Telescope|Boogaloo" rel="stylesheet">
+    <script src="../includes/script.js"> </script>
+
+    <link href="https://use.fontawesome.com/releases/v5.0.2/css/all.css" rel="stylesheet">
+
+</head>
+<body id="find">
+<div id="wrapper">
+    <header>
+        <div>
+            <h1> Find workout </h1>
+            <i id="profile" class="fas fa-user-circle fa-lg"></i>
+            <p id="logout">log out</p>
+        </div>
+    </header>
+    <main id="rect">
+        <div class="lineJoin">
+
+        </div>
+            <section class="buttonJoin">
+                <button class="button button1">1</button>
+                <button class="button button2">2</button>
+                <button class="button button3">3</button>
+                <button class="button button4">4</button>
+            </section>
+        <h2>Workout type</h2>
+        <section id="recsFind">
+
+        </section>
+        <section class="date">
+            <h2>Date</h2>
+            <input type="datetime-local" name="bdaytime">
+        </section>
+        <section class="location">
+            <h2>location</h2>
+            <form action="/action_page.php">
+                <select class="custom-select">
+                    <option selected>Bat Yam</option>
+                    <option value="1">Givatayim</option>
+                    <option value="2">Ramat Gan</option>
+                    <option value="3">Tel Aviv</option>
+                </select>
+            </form>
+        </section>
+
+        <section id="contFind">
+            <button onclick="nextPage(1);">Continue</button>
+        </section>
+    </main>
+    <footer>
+        <div class="icon-bar">
+            <a href="../index.html"> <i class="fas fa-home"><p>Home</p></i></a>
+            <a href="../CreateNew/createNew.html"> <i class="fas fa-edit"><p>Create</p></i></a>
+            <a href="../JoinWorkout/find.html"> <i class="fas fa-users"><p>Join</p></i></a>
+            <a href="#"> <i class="fas fa-history"><p>History</p></i></a>
+            <a href="#"> <i class="fas fa-calendar-check"><p>Schedule</p></i></a>
+        </div>
+
+    </footer>
+</div>
+<script>
+    window.onload=loadRec(6, "titleFind");
+</script>
+</body>
+</html>
