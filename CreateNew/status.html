@@ -8,7 +8,6 @@
     <link href="https://fonts.googleapis.com/css?family=Annie+Use+Your+Telescope|Boogaloo" rel="stylesheet">
     <script src="../includes/script.js"> </script>
     <link href="https://use.fontawesome.com/releases/v5.0.2/css/all.css" rel="stylesheet">
-
 </head>
 <body id="status">
 <div id="wrapper">
@@ -16,17 +15,23 @@
         <div>
             <h1> Status </h1>
             <i id="profile" class="fas fa-user-circle fa-lg"></i>
-            <p id="logout">log out</p>
+            <span id="logout">Logout</span>
         </div>
     </header>
     <main>
-        <div class="lineCreate">
-
-        </div>
         <section>
-            <button class="button button1">1</button>
-            <button class="button button2">2</button>
-            <button class="button button3">3</button>
+            <svg>
+                <circle id="first" cx="10%" cy="50%" r="4%" ></circle>
+                <text id="one" x="10%" y="50%">1</text>
+
+                <line id="line1" x1="13%" y1="50%" x2="50%" y2="50%" />
+                <circle id="second"   cx="50%" cy="50%" r="4%" ></circle>
+                <text id="two" x="50%" y="50%">2</text>
+                <line id="line2" x1="53%" y1="50%" x2="90%" y2="50%" />
+
+                <circle id="third"  cx="90%" cy="50%" r="4%"></circle>
+                <text id="three" x="90%" y="50%" >3</text>
+            </svg>
         </section>
         <section class="chackIcon">
             <i class="fas fa-check"></i>
@@ -34,16 +39,14 @@
             <section class="endStatus">
                 Your Workout Created !
             </section>
-
-
     </main>
     <footer>
         <div class="icon-bar">
-            <a href="../index.html"> <i class="fas fa-home"><p>Home</p></i></a>
-            <a href="createNew.html"> <i class="fas fa-edit"><p>Create</p></i></a>
-            <a href="../JoinWorkout/find.html"> <i class="fas fa-users"><p>Join</p></i></a>
-            <a href="#"> <i class="fas fa-history"><p>History</p></i></a>
-            <a href="#"> <i class="fas fa-calendar-check"><p>Schedule</p></i></a>
+            <a href="../index.html"> <i class="fas fa-home"><span>Home</span></i></a>
+            <a href="#"> <i class="fas fa-edit"><span>Create</span></i></a>
+            <a href="../JoinWorkout/find.html"> <i class="fas fa-users"><span>Join</span></i></a>
+            <a href="../vip/history/history.html"> <i class="fas fa-history"><span>History</span></i></a>
+            <a href="../results/results.html"> <i class="fas fa-calendar-check"><span>Results</span></i></a>
         </div>
 
     </footer>

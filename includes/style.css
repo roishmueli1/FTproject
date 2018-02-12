@@ -27,12 +27,19 @@ p{
     bottom: -3px;
     font-family: 'Annie Use Your Telescope', cursive;
 }
+footer span{
+    font-size: 15px;
+    position: relative;
+    font-family: 'Annie Use Your Telescope', cursive;
+    top: 20px;
+    right: 34px;
+    clear: both;
+}
 a{
     text-decoration: none;
     color: black;
 }
 .rectangles a{
-    text-align: center;
     position: relative;
     top: 40px;
     left: 10px;
@@ -40,22 +47,19 @@ a{
 }
 footer {
     height: 69px;
-    /* clear: both; */
+    clear: both;
     width: 100%;
     max-width: 1024px;
     position: fixed;
     bottom: 0px;
     background: #cccccc;
 }
-
 .icon-bar a {
     font-size: 36px;
     float: left;
     padding-top: 8px;
     width: 20%;
-    text-align: center
 }
-
 .button {
     background-color: white;
     border: 2px solid black;
@@ -71,20 +75,21 @@ footer {
     top: 14px;
 }
 #profile{
-    margin-left: 87%;
+    margin-left: 85%;
     position: absolute;
     top: 28%;
     font-size: 2.3em;
-
 }
-#logout {
-    margin-left: 85%;
-    position: absolute;
-    top: 60%;
-    font-size: 20px
-
+ .fas{
+    margin-left: 20%;
 }
-
+span#logout{
+    margin-left: 85.3%;
+    font-family: Boogaloo, cursive;
+    font-size: 14px;
+    position: relative;
+    top: -3px;
+}
 /*-----------------------------------------index----------------------------------------------------------*/
 #firstPage .rectangles{
     width: 136px;
@@ -92,40 +97,24 @@ footer {
     float: left;
     margin-top: 13px;
     margin-right: 10px;
-    position: relative;
-    top: 98px;
+    /*position: relative;*/
+    /*top: 98px;*/
     left: 11%;
     font-size: 27px;
     background-color: #e0e0e0;
     border-radius: 6px;
 }
+section#recsIndex{
+    margin-left: 11%;
+    margin-top: 70px;
+}
 
 /*-----------------------------------------join layout----------------------------------------------------------*/
-
-.lineJoin{
-    width: 75%;
-    border: 1px solid black;
-    position: relative;
-    top: 32px;
-    left: 10%;
-}
 .buttonJoin .button{
     margin: 4px 8.5%;
 }
-.button1 {
-    border-radius: 50%;
-    background-color: black;
-    color: white;
-}
-.button2 {border-radius: 50%;}
-.button3 {border-radius: 50%;}
-.button4 {border-radius: 50%;}
-
 /*-----------------------------------------find----------------------------------------------------------*/
-#recs {
-    margin-top: 28px;
-    min-height: 60px;
-}
+
 #find .rectangles{
     width: 88px;
     height: 51px;
@@ -147,7 +136,7 @@ footer {
 }
 #find h2{
     margin-left: 33%;
-    margin-top: 30px;
+    /*margin-top: 30px;*/
     font-family: 'Boogaloo', cursive;
     font-size: 28px;
 }
@@ -168,6 +157,7 @@ footer {
 #find .location h2{
     margin-left: 40%;
     height: 10px;
+    margin-top: 45px;
 }
 .date input{
     margin-top: 5px;
@@ -175,13 +165,14 @@ footer {
 }
 
 #find .custom-select {
-    margin-top: 5px;
+    margin-top: 35px;
     margin-left: 35%;
 }
 #contFind{
     height: 45px;
     margin-left: 19%;
     margin-top: 81px;
+    margin-bottom: 80px;
 }
 #contFind button{
     width: 218px;
@@ -191,20 +182,13 @@ footer {
 }
 
 /*-----------------------------------------list---------------------------------------------------------------*/
-#list .button1{
-    color: black;
-    background-color: white;
-}
-#list .button2{
-    color: white;
-    background-color: black;
-}
+
 #list .rectangles{
     width: 273px;
     height: 86px;
     border-radius: 4%;
     float: left;
-    margin-top: 15px;
+    margin-top: 11px;
     margin-left: 12%;
     font-size: 27px;
     box-shadow: 3px 6px 10px grey;
@@ -213,6 +197,7 @@ footer {
 #contList button{
     margin-top: 20px;
     margin-left: 20%;
+    margin-bottom: 80px;
 }
 #list .rectangles a{
     top: 4px;
@@ -252,29 +237,12 @@ footer {
     font-size: 24px;
 }
 /*-----------------------------------------My Workout---------------------------------------------------------------*/
-#myWorkout .button1{
-    color: black;
-    background-color: white;
-}
-#myWorkout .button3{
-    color: white;
-    background-color: black;
-}
 #myWorkout article button{
     margin-top: 45px;
     margin-left: 20%;
+    margin-bottom: 80px;
 }
-
-
 /*-----------------------------------------Join Status---------------------------------------------------------------*/
-#statusJoin .button1{
-    color: black;
-    background-color: white;
-}
-#statusJoin .button4{
-    color: white;
-    background-color: black;
-}
 /*-----------------------------------------Create New/details/status---------------------------------------------------------------*/
 .button {
     margin: 4px 12%;
@@ -289,18 +257,12 @@ footer {
     height: 35px;
     font-family: 'Boogaloo', cursive;
     font-size: 22px;
+    margin-bottom: 80px;
 
-}
-.lineCreate {
-    width: 65%;
-    border: 1px solid black;
-    position: relative;
-    top: 32px;
-    left: 12%;
 }
 form{
     margin-left: 7%;
-    margin-top: 25px;
+    /*margin-top: 25px;*/
     font-family: 'Boogaloo', cursive;
     font-size: 22px;
 }
@@ -336,17 +298,8 @@ form{
 }
 
 /*-----------------------------------------Details---------------------------------------------------------------*/
-
-#details .button1{
-    color: black;
-    background-color: white;
-}
-#details .button2{
-    color: white;
-    background-color: black;
-}
 #desc {
-    padding-top: 20px;
+    /*padding-top: 20px;*/
     padding-left: 12%;
     display: block;
     width: 270px;
@@ -377,6 +330,7 @@ form{
 #details article button{
     margin-top: 85px;
     margin-left: 20%;
+    margin-bottom: 80px;
 }
 /*-----------------------------------------Status---------------------------------------------------------------*/
 
@@ -398,6 +352,7 @@ form{
     font-family: 'Boogaloo', cursive;
     margin-left: 11%;
     margin-top: 20px;
+    margin-bottom: 100px;
 }
 
 /*-----------------------------------------details/Myworkout/createNew---------------------------------------------------------------*/
@@ -416,80 +371,576 @@ article p{
     font-size: 18px;
     font-family: 'Bangers', cursive;;
 }
+/*------------------------------------------V.I.P------------------------------------------------------ */
+.selected{
+    background-color: #aaaaaa;
+    padding: 5px;
+}
+/*------------------------------------------Special February------------------------------------------------------ */
+ul{
+    margin-left: 6%;
+    list-style-type: none;
+    margin-top: 10px;
+    font-family: 'Boogaloo', cursive;
+    font-size: 18px;
+}
+li.vipNav{
+    display: inline;
+    padding: 10px;
+}
+#special h2{
+    font-family: Boogaloo, cursive;
+    text-align: center;
+    margin: 18px;
+}
+#special .rectangles{
+    width: 100%;
+    height: 80px;
+    font-size: 16px;
+    margin-top: 7px;
+    border-bottom: 2px solid darkgray;
+}
+#special span#logout{
+    margin-left: 85.3%;
+    position: relative;
+    /*top: -33px;*/
+}
+#special .specialDate{
+    margin-left: 12%;
+    position: relative;
+    font-family: Acme;
+    font-size: 14px;
+}
+#special .specialKilometer{
+    margin-left: 12%;
+    position: relative;
+    font-family: Acme;
+    top: 0px;
+    font-size: 14px;
+}
+#special .specialA{
+    font-size: 26px;
+    margin-left: 12%;
+    /*top: 0px;*/
+    display: block;
+    position: static;
+}
+#special img{
+    margin-left: 65%;
+    position: relative;
+    top: -21px;
+}
 
 
-@media only screen and (min-width: 768px) {
-    /* For desktop: */
+/*-----------------------------------------------Trail Run---------------------------------------------------*/
+
+h3 {
+    font-family: 'Annie Use Your Telescope', cursive;
+    text-align: center;
+    margin-top: 10px;
+}
+#descTrailRun p{
+    margin-top: 10px;
+    margin-left: 14%;
+    font-family: Boogaloo, cursive;
+    font-size: 24px;
+}
+#descTrailRun span{
+    margin-left: 4%;
+    font-size: 18px;
+}
+/*#descTrailRun button{
+    width: 110px;
+    height: 25px;
+    font-size: 16px;
+    background-color: #cccccc;
+}*/
+/*-----------------------------------------------ach---------------------------------------------------*/
+#achivmets h1{
+    margin-bottom: 30px;
+}
+#achivmets .rectangles{
+    width: 100%;
+    height: 80px;
+    font-size: 16px;
+    margin-top: 7px;
+    border-bottom: 2px solid darkgray;
+}
+#achivmets .rectangles p{
+    margin-left: 21%;
+    margin-top: -5px;
+    font-size: 26px;
+}
+#achivmets span {
+    margin-left: 21%;
+    font-size: 14px;
+    font-family: Boogaloo, cursive;
+}
+#achivmets .icon-bar span{
+    margin-left: 0%;
+}
+#achivmets span#logout{
+    margin-left: 85.3%;
+    position: relative;
 
 }
-@media only screen and (max-width: 768px) {
-    /* For mobile phones: */
+#achivmets article{
+    margin-left: 83%;
+    margin-top: -85px;
+}
+.throphyAchievements{
+    position: relative;
+}
+
+#achivmets  #first{
+    font-size: 30px;
+    position: absolute;
+    right: 81%;
+}
+#achivmets #second{
+    font-size: 30px;
+    position: absolute;
+    right: 46%;
+}
+
+#achivmets  #third{
+    font-size: 30px;
+    position: absolute;
+    right: 11%;
+}
+
+#achivmets  #fourth{
+    font-size: 30px;
+    position: absolute;
+    right: 81%;
+    top: 120px;
+    opacity:0.4;
+}
+#achivmets  #fifth{
+    font-size: 30px;
+    position: absolute;
+    right: 46%;
+    top: 120px;
+    opacity:0.4;
+}
+
+#achivmets  #medal{
+    font-size: 30px;
+    top: 260px;
+    position: absolute;
+    right: 81%;
 
 }
-@media screen and (max-width: 480px) {
-
+#achivmets  #medal2{
+    font-size: 30px;
+    top: 260px;
+    position: absolute;
+    right: 46%;
 
 }
+#cycling{
 
-/*<p>Location : <span>Metzitzim beach, TLV </span>
-            <p>Date & Time : <span>31/12/2017, 19:00 </span>
-            <p>Workout Type : <span>Cycling </span>
-            <p>Workout Level :
-            <p>Creator :  <span>Moti Cohen</span>
-            <p>Description :<span class="description">  we will start with short warm Up, then will run 2 km. </span></p>
+    margin-top: 190px;
 
-*/
+}
+h4{
+    font-size: 15px;
+    line-height: 100%;
+    margin-left: 10px;
+}
+#achivmets h1 {
+    margin-bottom: 0px;
+}
+#achivmets li{
+    display: inline;
+    padding: 10px;
+}
+#descTrailRun button{
+    margin-left: 23%;
+}
+/*-----------------------------------------------Events----------------------------------------------------------*/
+#events .rectangles{
+    width: 185px;
+    height: 97px;
+    background-color: #eeeeee;
+    font-family: Boogaloo, cursive;
+    margin-left: 23%;
+    margin-top: 5px;
+}
+#events .rectangles a{
+    top: 25px;
+    left: 0px;
+    margin-left: 7%;
+    font-size: 24px;
+    font-family: boogaloo, cursive;
+}
 
-/*<!doctype html>
-<html>
-<head>
-    <title> My Workout </title>
-    <link rel="stylesheet" href="../includes/style.css">
-    <link href="https://fonts.googleapis.com/css?family=Annie+Use+Your+Telescope" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Annie+Use+Your+Telescope|Boogaloo" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Bangers" rel="stylesheet">
-    <!--<script src="includes/script.js"> </script>-->
-    <link href="https://use.fontawesome.com/releases/v5.0.2/css/all.css" rel="stylesheet">
+#events .rectangles p{
+    text-align: center;
+    margin-top: 25px;
+}
+#events nav{
+    margin-bottom: 20px;
+}
+section.loginPHP {
+    margin: 85px;
+}
+/*-----------------------------------------------Samsung Marathon----------------------------------------------------------*/
+#descTrailRun button{
 
-</head>
-<body id="myWorkout">
-<div id="wrapper">
-    <header>
-        <div>
-            <h1> My Workout </h1>
-        </div>
-    </header>
-    <main>
-        <div class="lineJoin">
+    margin-top: 40px;
+}
 
-        </div>
-        <section class="buttonJoin">
-            <button class="button button1">1</button>
-            <button class="button button2">2</button>
-            <button class="button button3">3</button>
-            <button class="button button4">4</button>
-        </section>
-        <article id="desc">
-            <p>Location : <span>Metzitzim beach, TLV </span>
-            <p>Date & Time : <span>31/12/2017, 19:00 </span>
-            <p>Workout Type : <span>Cycling </span>
-            <p>Workout Level :
-            <p>Creator :  <span>Moti Cohen</span>
-            <p>Description :<span class="description">  we will start with short warm Up, then will run 2 km. </span></p>
-        </article>
-        <article>
-            <a href="status.html"><button>Accpet</button></a>
-        </article>
-    </main>
-    <footer>
-        <div class="icon-bar">
-            <a href="../index.html"> <i class="fas fa-home"><p>Home</p></i></a>
-            <a href="../CreateNew/createNew.html"> <i class="fas fa-edit"><p>Create</p></i></a>
-            <a href="find.html"> <i class="fas fa-users"><p>Join</p></i></a>
-            <a href="#"> <i class="fas fa-history"><p>History</p></i></a>
-            <a href="#"> <i class="fas fa-calendar-check"><p>Schedule</p></i></a>
-        </div>
-    </footer>
-</div>
-</body>
-</html>*/
+#samsungMarathon h3{
+    text-align: center;
+    font-family: 'Acme', sans-serif;
+    color: #777777;
+}
+#samsungMarathon h4{
+    margin-left: 10%;
+    font-family: 'Acme', sans-serif;
+    color: #777777;
+}
+#samsungMarathon p{
+    font-family: 'Acme', sans-serif;
+    font-size: 14px;
+    margin-left: 10%;
+    padding-top: 10px;
+}
+/*--------------------------------------------History-List----------------------------------------------------------*/
+.historyList{
+    margin-left: 15%;
+    /*padding-top: 7px;*/
+    /*padding-bottom: 10px;*/
+}
+.historyLine{
+    border-bottom: 2px solid darkgray;
+    margin-left: -21px;
+    margin-top: 8px;
+}
+#workout-list img{
+    margin-left: 85%;
+    position: relative;
+    top: -40px;
+}
+#history h2{
+    font-family: Boogaloo, cursive;
+    text-align: center;
+    margin: 18px;
+}
+/*--------------------------------------------workout----------------------------------------------------------*/
+#workout-deatils p{
+    font-size: 58px;
+    margin-top: 130px;
+    margin-left: 7%;
+}
+#isDone{
+    font-family: Acme, sans-serif;
+    font-size: 36px;
+    margin-left: 40%;
+}
+/*--------------------------------------------ResultHalfMarathon----------------------------------------------------------*/
+ul.title{
+    margin-top: 30px;
+}
+ul.title li{
+    display: inline;
+    font-size: 14px;
+}
+ul.results span{
+    margin: 13px;
+    font-family: 'Annie Use Your Telescope', cursive;
+}
+li.id{
+    margin-left: 12%;
+}
+li.time{
+    margin-left: 20%;
+}
+li.avg{
+    margin-left: 12%;
+}
+li.year{
+    margin-left: 8%;
+}
+input[type="submit"]{
+    width: 20%;
+    font-family: boogaloo, cursive;
+}
+#resultHalfMarathon p{
+    font-family: 'Boogaloo', cursive;
+    margin-top: 10px;
+}
+
+/*--------------------------------------------My Result----------------------------------------------------------*/
+#resultHalfMarathon h2{
+    font-family: Boogaloo, cursive;
+    text-align: center;
+    margin-top: 15px;
+}
+/*--------------------------------------------Results----------------------------------------------------------*/
+#results h2{
+    text-align: center;
+    font-family: Boogaloo, cursive;
+    margin-top: 20px;
+}
+#results article{
+    width: 150px;
+    height: 64px;
+    background-color: lightgray;
+    margin-left: 24%;
+    margin-top: 24px;
+    padding: 20px;
+}
+.titleAndDate a{
+    font-size: 24px;
+    margin-left: 9%;
+    font-family: Boogaloo, cursive;
+}
+.titleAndDate p{
+    text-align: center;
+    font-size: 18px;
+    font-family: "Annie Use Your Telescope";
+}
+#results input[type="submit"]{
+    width: 50%;
+    margin-left: 62%;
+}
+section.titleAndDate{
+    margin-bottom: 100px
+}
+.resTrail a{
+    position: relative;
+    left: 16%;
+}
+ul.results{
+    margin-bottom: 20px;
+}
+/*--------------------------------------------Insert form----------------------------------------------------------*/
+#insertForm input[type="text"]{
+    margin-top: 25px;
+}
+#insertForm h2 {
+    text-align: center;
+    margin-top: 15px;
+}
+#insertForm label{
+    margin: 10px;
+}
+.rank input[type="text"]{
+    margin-left: 17%;
+}
+.id input[type="text"]{
+    margin-left: 24%;
+}
+.time input[type="text"]{
+    margin-left: 16%;
+}
+.avg input[type="text"]{
+    margin-left: 20%;
+}
+.birthdate input[type="text"]{
+    margin-left: 6%;
+}
+#insertForm input[type="submit"]{
+    width: 35%;
+    margin-left: 33%;
+    margin-top: 25px;
+    font-family: boogaloo, cursive;
+}
+/*--------------------------------------------Insert form----------------------------------------------------------*/
+#insert10km input[type="submit"]{
+    margin-left: 35%;
+    margin-top: 25px;
+
+}
+    /*-----------------------------------------------SVG------------------------------------------------------------*/
+svg{
+    height: 50px;
+    width: 100%;
+}
+#first{
+    fill: white;
+    stroke: black;
+}
+#one{
+    text-anchor: middle;
+    alignment-baseline: central;
+    fill: black;
+}
+#line1{
+    stroke: black;
+    stroke-width: 2px;
+}
+#second{
+    fill: white;
+    stroke: black;
+}
+#two{
+    text-anchor: middle;
+    alignment-baseline: central;
+    fill: black;
+}
+#line2{
+    stroke: black;
+    stroke-width: 2px;
+}
+#third{
+    fill: white;
+    stroke: black;
+}
+#three{
+    text-anchor: middle;
+    alignment-baseline: central;
+    fill: black;
+}
+#fourth{
+    fill: white;
+    stroke: black;
+}
+#four{
+    text-anchor: middle;
+    alignment-baseline: central;
+    fill: black;
+}
+#statusJoin #four, #myWorkout #three, #list #two, #status #three, #details #two, #createNew #one, #find #one{
+    text-anchor: middle;
+    alignment-baseline: central;
+    fill: white;
+}
+#statusJoin #fourth, #myWorkout #third, #list #second, #status #third, #details #second, #createNew #first, #find #first{
+    fill: black;
+    stroke: black;
+}
+
+
+
+@media only screen and (min-width: 600px) {
+
+
+    #logout{
+        margin-left: 86.3%;
+    }
+    form{
+        margin-left: 35%;
+    }
+    #contCreate button{
+        margin-left: 30%;
+    }
+
+
+    body{
+        background-color: #ffffff;
+
+    }
+    #wrapper{
+
+        min-width: 100%;
+
+    }
+    footer{
+        min-width: 100%;
+    }
+    header{
+        min-width: 100%;
+    }
+    #firstPage .rectangles{
+        height: 9em;
+        width: 40%;
+        text-align: center;
+
+    }
+
+    .rectangles a{
+        font-size: 139%;
+        top: 35%;
+    }
+    form {
+        margin-left: 40%;
+
+    }
+    svg{
+        height: 100px;
+    }
+
+    svg {
+        font-family: 'Boogaloo', cursive;
+        font-size: 40px;
+
+    }
+
+    #contCreate button{
+        margin-left: 30%;
+    }
+    #desc {
+
+        padding-left: 40%;
+    }
+    #details article button {
+        margin-top: 20px;
+        margin-left: 42%;
+    }
+    .fa-check:before {
+
+        margin-left: 120%;
+    }
+    .endStatus{
+
+        margin-left: 40%;
+    }
+    #find .rectangles {
+        width: 20%;
+        height: 64px;
+        margin-left: 9.5%;
+    }
+    #find h2 {
+        margin-left: 45%;
+    }
+    #find .date h2 {
+        margin-left: 49%;
+    }
+    .date input {
+        margin-left: 43%;
+    }
+    #find .location h2 {
+        margin-left: 48%;
+    }
+    #find .custom-select {
+        margin-left: 13%;
+    }
+    #contFind button {
+        margin-left:29%;
+        margin-top: -20%;
+    }
+    #list .rectangles {
+        width: 32%;
+    }
+    #contList button {
+
+        margin-left: 42%;
+    }
+    nav{
+        margin-left:33%;
+    }
+    #achivmets #second,#fifth,#medal2{
+
+        margin-right: 3%;
+
+    }
+
+    #achivmets  #third{
+
+        margin-right: 10%;
+    }
+    #descTrailRun p {
+        margin-left: 43%;
+    }
+    #descTrailRun button{
+        margin-left: 42%;
+        margin-top: 40px;
+    }
+    #box{
+        left: 38%;
+
+    }
+}

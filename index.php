@@ -1,3 +1,28 @@
+<?php
+    include 'db.php';
+    include 'config.php';
+
+
+    session_start();
+    if(!empty($_POST["email"])){
+        $query = "SELECT * FROM tbl_users_217 WHERE email='"
+            . $_POST["email"]
+            . "' AND password = '"
+            . $_POST["password"]
+            . "'";
+
+        $result = mysqli_query($connection , $query);
+        $row = mysqli_fetch_array($result);
+        if(is_array($row)) {
+            $_SESSION["user_id"] = $row['user_id'];
+            header('Location: http://shenkar.html5-book.co.il/2017-2018/html5/dev_217/index.html');
+
+        }else {
+            $massage = "Invalid Username or Password";
+        }
+    }
+?>
+
 <!doctype html>
 <html>
 <head>
@@ -18,9 +43,17 @@
         <i id="profile" class="fas fa-user-circle fa-lg"></i>
         <span id="logout">Logout</span>
     </header>
-    <main id="rect">
-        <section id="recsIndex">
-
+    <main>
+        <h1>Log me in</h1>
+        <section class="loginPHP">
+            <form action="#" method="POST" id="frm">
+                <div><label for="login">Email:</label></div>
+                <div><input name="email" type="email"></div>
+                <div><label for="password">Password:</label></div>
+                <div><input name="password" type="password"></div>
+                <div><input type="submit" name="login" value="Log Me In"></div>
+                <div><?php if(isset($massage)){ echo $massage; } ?></div>
+            </form>
         </section>
 
 
@@ -37,8 +70,6 @@
     </footer>
 </div>
 <script>
-    loadRec(4, "titleIndex");
 
-</script>
 </body>
 </html>

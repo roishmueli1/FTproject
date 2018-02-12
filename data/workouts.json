@@ -1,0 +1,53 @@
+{
+  "category": "Workouts",
+  "kindOfWorkout": [
+    {
+      "id": "10",
+      "name": "Trx",
+      "date": 15.1,
+      "isDone": "No"
+    },
+    {
+      "id": "11",
+      "name": "Trx",
+      "date": 18.1,
+      "isDone": "Yes"
+    },
+    {
+      "id": "12",
+      "name": "Run",
+      "date": 2.2,
+      "isDone": "Yes"
+    },
+    {
+      "id": "13",
+      "name": "Cycling",
+      "date": 3.2,
+      "isDone": "No"
+    },
+    {
+      "id": "14",
+      "name": "Run",
+      "date": 7.2,
+      "isDone": "No"
+    },
+    {
+      "id": "15",
+      "name": "Run",
+      "date": 14.2,
+      "isDone": "No"
+    },
+    {
+      "id": "16",
+      "name": "Trail run",
+      "date": 30.2,
+      "isDone": "Yes"
+    },
+    {
+      "id": "17",
+      "name": "Run",
+      "date": 31.2,
+      "isDone": "Yes"
+    }
+  ]
+}
